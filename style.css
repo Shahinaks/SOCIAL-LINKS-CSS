@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    background-color: hsl(0, 0%, 8%);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 320px;
+}
+.image{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin-bottom: 1rem;
+}
+.name{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.city{
+    color: hsl(75, 94%, 57%);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.job{
+    color: white;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+.social{
+list-style: none;
+}
+.social li{
+    margin-bottom: 0.5rem;
+}
+.social a{
+    display: block;
+    padding: 0.75rem;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.social a:hover{
+    background-color: #555;
+}
